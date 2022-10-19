@@ -1,0 +1,94 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style_rr.css" />
+    <title>CPU Scheduling Visualizer</title>
+</head>
+<body>
+  <div class="Round_Robin">
+    <h2 class="Round_Robin-Header">Round Robin</h2>
+    <p>
+      The shortest job first (SJF) or shortest job next, is a scheduling
+      policy that selects the waiting process with the smallest execution
+      time to execute next.
+    </p>
+    <hr />
+    <p>Time Quantam : </p>
+    <input id="time_2" type="number" value="time" />
+
+    <table id="Round_Robin-Table" style="width: 100%">
+      <tr>
+        <th>Process</th>
+        <th>Arrival Time</th>
+        <th>Execute Time</th>
+      </tr>
+      <tr>
+        <td id="s_no_2">1</td>
+        <td>
+          <input id="arrive_2_1" type="number" value="arrival" />
+        </td>
+        <td>
+          <input id="execute_2_1" type="number" value="execute" />
+        </td>
+      </tr>
+    </table>
+    <button class="btn" onclick="insert_row_2()">+</button>
+    <button class="btn" onclick="Delete_row_2()">-</button>
+    <button class="btn" onclick="progress_show_2()">Go</button>
+    <div id="progress-bar_2"></div>
+  </div>
+  <script src="./app_rr.js"></script>
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style_rr.css" />
+    <title>CPU Scheduling Visualizer</title>
+</head>
+<body>
+  <div class="Round_Robin">
+    <h2 class="Round_Robin-Header">Round Robin</h2>
+    <p>
+      The shortest job first (SJF) or shortest job next, is a scheduling
+      policy that selects the waiting process with the smallest execution
+      time to execute next.
+    </p>
+    <hr />
+    <p>Time Quantam : </p>
+    <input id="time_rr" type="number" value="time" />
+
+    <table id="Round_Robin-Table" style="width: 100%">
+      <tr>
+        <th>Process</th>
+        <th>Arrival Time</th>
+        <th>Execute Time</th>
+      </tr>
+      <tr>
+        <td id="s_no_rr">1</td>
+        <td>
+          <input id="arrive_1_rr" type="number" value="arrival" />
+        </td>
+        <td>
+          <input id="execute_1_rr" type="number" value="execute" />
+        </td>
+      </tr>
+    </table>
+    <button class="btn" onclick="insert_row_rr()">+</button>
+    <button class="btn" onclick="Delete_row_rr()">-</button>
+    <button class="btn" onclick="progress_show_rr()">Go</button>
+    <div id="progress-bar_rr"></div>
+  </div>
+  <script src="./app_rr.js"></script>
+</body>
+</html>

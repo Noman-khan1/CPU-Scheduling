@@ -1,0 +1,86 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style_sjf.css" />
+    <title>CPU Scheduling Visualizer</title>
+</head>
+<body>
+  <div class="SJF">
+    <h2 class="SJF-Header">Shortest Job First Scheduling</h2>
+    <p>
+      The shortest job first (SJF) or shortest job next, is a scheduling
+      policy that selects the waiting process with the smallest execution
+      time to execute next.
+    </p>
+    <hr />
+    <table id="SJF-Table" style="width: 100%">
+      <tr>
+        <th>Process</th>
+        <th>Arrival Time</th>
+        <th>Execute Time</th>
+      </tr>
+      <tr>
+        <td id="s_no_1">1</td>
+        <td>
+          <input id="arrive_1_1" type="number" value="arrival" />
+        </td>
+        <td>
+          <input id="execute_1_1" type="number" value="execute" />
+        </td>
+      </tr>
+    </table>
+    <button class="btn" onclick="insert_row_1()">+</button>
+    <button class="btn" onclick="Delete_row_1()">-</button>
+    <button class="btn" onclick="progress_show_1()">Go</button>
+    <div id="progress-bar_1"></div>
+  </div>
+  <script src="./app_sjf.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style_sjf.css" />
+    <title>CPU Scheduling Visualizer</title>
+</head>
+<body>
+  <div class="SJF">
+    <h2 class="SJF-Header">Shortest Job First Scheduling</h2>
+    <p>
+      The shortest job first (SJF) or shortest job next, is a scheduling
+      policy that selects the waiting process with the smallest execution
+      time to execute next.
+    </p>
+    <hr />
+    <table id="SJF-Table" style="width: 100%">
+      <tr>
+        <th>Process</th>
+        <th>Arrival Time</th>
+        <th>Execute Time</th>
+      </tr>
+      <tr>
+        <td id="s_no_sjf">1</td>
+        <td>
+          <input id="arrive_1_sjf" type="number" value="arrival" />
+        </td>
+        <td>
+          <input id="execute_1_sjf" type="number" value="execute" />
+        </td>
+      </tr>
+    </table>
+    <button class="btn" onclick="insert_row_sjf()">+</button>
+    <button class="btn" onclick="Delete_row_sjf()">-</button>
+    <button class="btn" onclick="progress_show_sjf()">Go</button>
+    <div id="progress-bar_sjf"></div>
+  </div>
+  <script src="./app_sjf.js"></script>
+</body>
+</html>
